@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 h1{
     font-size: 3rem;
@@ -9,7 +9,7 @@ form{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 50vw;
+    max-width: 70vw;
     margin: 10px auto;
 }
 form label{
@@ -17,14 +17,16 @@ form label{
     text-align: left;
 }
 input{
-    padding: 10px;
+    padding: 15px;
     font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey ;
 }
 input:focus{
-    outline: none;
+    outline: 1px solid rgb(197, 7, 7);
     border-width: 3px;
     border-style: solid;
-    border-color:rgb(197, 7, 7) ;
+    border-color:rgba(197, 7, 7, 0.774) ;
 }
 button{
     padding: 10px;
@@ -38,4 +40,17 @@ button{
 button:hover{
     background-color: rgb(158, 7, 7);
     cursor: pointer;
+}
+
+
+/* responsive for mobile  */
+@media screen and (max-width: 425px){
+    h1{
+        font-size: 2rem;
+    }
+
+    form label{
+        font-size: 14pt;
+    }
+
 }
