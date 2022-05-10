@@ -1,1 +1,1 @@
-alert('Welcome!')
+console.log('hello dev!')
