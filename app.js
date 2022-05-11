@@ -9,6 +9,7 @@ DownloadForm.addEventListener('submit', (e) => {
 const download = (url, format) => {
     const button = document.getElementById('download-button');
     button.style.padding = '0';
+    button.style.backgroundColor = '#64C896';
     button.innerHTML = `<iframe style='height: 52px; width:100%; border: none; overflow: hidden;' src="https://loader.to/api/button/?url=${url}&f=${format}"></iframe>`;
     
 }
