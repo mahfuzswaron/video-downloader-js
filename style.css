@@ -26,7 +26,7 @@ input:focus{
     outline: 1px solid rgb(197, 7, 7);
     border-width: 3px;
     border-style: solid;
-    border-color:rgba(197, 7, 7, 0.774) ;
+    border-color:rgba(223, 4, 4, 0.774) ;
 }
 button{
     padding: 10px;
